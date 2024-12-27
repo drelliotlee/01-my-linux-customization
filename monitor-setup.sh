@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# Set up the primary laptop display (eDP-1)
-xrandr --output eDP-1 --primary --mode 2765x1728 --pos 0x1727 --rotate normal
+# Set framebuffer size to fit both monitors
+xrandr --fb 3072x3456
 
-# Set up the external monitor (DP-3)
-xrandr --output DP-3 --mode 3072x1728 --pos 0x0 --rotate normal
+# Configure external monitor (DP-2)
+xrandr --output DP-2 --mode 3840x2160 --scale 0.8x0.8 --pos 0x0 --rotate normal
+
+# Configure laptop monitor (eDP-1) with calculated horizontal offset
+xrandr --output eDP-1 --mode 3456x2160 --scale 0.8x0.8 --pos 154x1728 --rotate normal
 
