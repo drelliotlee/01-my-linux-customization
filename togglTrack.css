@@ -1,0 +1,80 @@
+.exbqsju22, .e1n8js470, .e18tw7r41, #timer-dashboard-area-left, .css-hjbeoo-TimerOptionsMenu, .e1v405v60, .e2h8eq20, .e1x8lj9j1, #react-tooltip-region {
+    display: none;
+  } 
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.hide-rates.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.e1777ai84.css-26mntm-Grid.e1777ai83 > div.css-4va3pp-Column-TimerDashboardArea.e1777ai82 > div.css-1rw57o9-TrackedTimeSummaryRoot-label-bodyText-contextPopupTitle.e1er13kn0 > a:nth-child(2) {
+    display: none;
+  }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.css-1heyfjn-TimerFormWrapper-raised20-block.e1v405v62 > div > div.css-c4t46h-Container.eogtec86 {
+    display: none;
+  }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.css-1heyfjn-TimerFormWrapper-raised20-block.e1v405v62 > div > div.css-1liqhhc-Container.e1x8mxgg2 {
+    display: none;
+  }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.css-1heyfjn-TimerFormWrapper-raised20-block.e1v405v62 > div > div.css-3srs2p-BillableSwitchContainer.e1wsrd3f0 {
+    display: none;
+  }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.css-1heyfjn-TimerFormWrapper-raised20-block.e1v405v62 > div > div.css-fc3fjz-Container.e1iz715u2 {
+    display: none;
+  }
+  .e1fczb7t0 {
+      position: relative; /* Establish a positioning context for children */
+      left: 0;
+  }
+  
+  .e1v405v62 {
+      position: absolute; /* Position relative to the nearest positioned ancestor */
+      top: 0;
+      left: 0;
+      width: 400px; /* Force a fixed width */
+      height: 100px; /* Force a fixed height */
+      overflow: hidden; /* Ensure content inside doesn't affect dimensions */
+      margin-right: 0;
+  }
+  
+  .e1777ai83 {
+      position: absolute; /* Position relative to the nearest positioned ancestor */
+      top: 0;
+      left: 0;
+      width: 800px; /* Force a fixed width */
+      height: 100px; /* Force a fixed height */
+      overflow: hidden; /* Ensure content inside doesn't affect dimensions */
+      padding-left: 200px;
+  }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.css-1heyfjn-TimerFormWrapper-raised20-block.e1v405v62 > div > div.css-1gyn3aa-Root.e1fe3thf1 > div.css-712x40-Duration.e1fe3thf0 > span {
+    font-size: 1.5rem;
+  }
+  
+  .eegohvj1{
+    width: 0px;
+  }
+  
+  .right-pane{
+    all: unset !important; /* Reset all styles */
+    padding-left: 0px;
+    position: fixed; /* Ensures the element is positioned relative to the browser window */
+      left: 0;
+  }
+  
+  .css-1heyfjn-TimerFormWrapper-raised20-block {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .e1fe3thf1 {
+    padding-top: 20px;
+    padding-left: 130px;
+    font-size: 2rem;
+  }
+  
+  body > div.intercom-lightweight-app > div { display: none; }
+  
+  #root > div > div > div.page-wrapper > div.right-pane > div > div.content-wrapper.pro > div.css-1u9yvjc-Page-EnhancedPage-EnhancedPage.e1fczb7t0 > div.e1777ai84.css-26mntm-Grid.e1777ai83 > div.css-4va3pp-Column-TimerDashboardArea.e1777ai82 > div.css-1rw57o9-TrackedTimeSummaryRoot-label-bodyText-contextPopupTitle.e1er13kn0 {
+    padding-right: 100px;
+    padding-top: 5px;
+  }
