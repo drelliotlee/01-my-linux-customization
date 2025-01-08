@@ -1,0 +1,26 @@
+// ==UserScript==
+// @name         Change Theme Color to Black
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Change the theme color of https://stopwatch-app.com/ to black
+// @author       You
+// @match        https://stopwatch-app.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Find the existing theme-color meta tag
+    let metaTag = document.querySelector('meta[name="theme-color"]');
+    if (metaTag) {
+        // If it exists, change its content to black
+        metaTag.setAttribute('content', '#000000');
+    } else {
+        // If it doesn't exist, create a new meta tag
+        metaTag = document.createElement('meta');
+        metaTag.setAttribute('name', 'theme-color');
+        metaTag.setAttribute('content', '#343432');
+        document.head.appendChild(metaTag);
+    }
+})();
