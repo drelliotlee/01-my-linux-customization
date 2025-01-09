@@ -3,6 +3,17 @@
 # Wait for the desktop environment to fully load
 sleep 5
 
+# Function to check for external monitors
+check_external_monitor() {
+    external_monitor=$(xrandr | grep " connected" | grep -v "primary" | awk '{print $1}')
+    if [ -z "$external_monitor" ]; then
+        exit 0
+    fi
+}
+
+# Check for external monitors
+check_external_monitor
+
 # Open ChatGPT in Chrome
 google-chrome --new-window "https://chatgpt.com/" &
 sleep 2
@@ -10,7 +21,7 @@ chatgpt_window=$(wmctrl -l | grep -i "ChatGPT" | awk '{print $1}')
 if [ -n "$chatgpt_window" ]; then
     wmctrl -i -r "$chatgpt_window" -e 0,0,0,1536,1587
 fi
-
+x
 # Open a new Chrome Tab
 google-chrome --new-window &
 sleep 2
