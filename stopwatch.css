@@ -1,85 +1,95 @@
 .top-0, p.prose, .pb-8, .right-2, .w-4, h1.text-center {
-    display: none;
-  }
-  
-  .py-6 {
-    padding: 0;
-  }
-  
-  .flex {
-    display: inline-flex;
-  }
-  
-  .text-center {
-    width: 300px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin-top: 0;
-    vertical-align: middle; /* Ensures proper alignment */
-    padding-top: 0;
-  }
-  
-  .bg-white {
-    display: inline-flex;
-  }
-  
-  span.dark\:text-white  {
-    font-size: 5rem;
-  }
-  
-  .place-content-center {
-    padding-top: .5rem;
-  }
-  
-  .bg-white {
-    background-color: transparent;
-  }
-  
-  button.dark\:text-gray-600 {
-    background-color: transparent;
-    color: white;
-  }
-  
-  #__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button.min-w-\[5rem\].sm\:min-w-\[6rem\].px-2.py-1.sm\:py-2.items-center.border.border-transparent.rounded-full.shadow.text-sm.sm\:text-base.bg-white.dark\:bg-gray-800.text-gray-500.dark\:text-white.hover\:bg-gray-50.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.dark\:focus\:ring-indigo-500.dark\:hover\:text-indigo-500.dark\:group-hover\:text-indigo-500.self-center {
-    padding-left: 25px;
-  }
-  /*
-  main {
-    padding: 1rem;
-    padding-left: 150px;
-  }
-  */
-  main {
-    margin-left: auto;
-    margin-right: auto;
-    /* Alternatively, shorthand: margin: 0 auto; */
-    width: 100%; /* Adjust width as needed */
-  }
-  
-  body {
-    overflow-y: hidden; /* Prevent vertical scrolling */
-    overflow-x: hidden;
-  }
-  
-  .grow {
-    width: 100vw;
-  }
-  
-  #__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #__nuxt > div > div.grow.min-h-screen.flex.flex-col > main {
-    padding-top: 1.5rem;
-  }
-  
-  body {
-    background-color: black;
-  }
-  
-  #__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button.w-20.sm\:w-24.h-20.sm\:h-24.items-center.border.border-transparent.text-base.sm\:text-xl.font-medium.rounded-full.shadow-lg.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.text-white.dark\:bg-indigo-600.dark\:hover\:bg-indigo-500.dark\:group-hover\:bg-indigo-500.dark\:focus\:ring-indigo-500 {
-    background-color: #343432;
-  }
+  display: none;
+}
+
+.py-6 {
+  padding: 0;
+}
+
+.flex {
+  display: inline-flex;
+}
+
+.text-center {
+  width: 225px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 0;
+  vertical-align: middle; /* Ensures proper alignment */
+  padding-top: 0;
+  padding-left: 0rem;
+  margin-left: 0rem;
+}
+
+.bg-white {
+  display: inline-flex;
+}
+
+span.dark\:text-white  {
+  font-size: 5rem;
+}
+
+.place-content-center {
+  padding-top: .5rem;
+}
+
+.bg-white {
+  background-color: transparent;
+}
+
+button.dark\:text-gray-600 {
+  background-color: transparent;
+  color: white;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button.min-w-\[5rem\].sm\:min-w-\[6rem\].px-2.py-1.sm\:py-2.items-center.border.border-transparent.rounded-full.shadow.text-sm.sm\:text-base.bg-white.dark\:bg-gray-800.text-gray-500.dark\:text-white.hover\:bg-gray-50.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.dark\:focus\:ring-indigo-500.dark\:hover\:text-indigo-500.dark\:group-hover\:text-indigo-500.self-center {
+  padding-left: 25px;
+}
+/*
+main {
+  padding: 1rem;
+  padding-left: 150px;
+}
+*/
+main {
+  margin-left: auto;
+  margin-right: auto;
+  /* Alternatively, shorthand: margin: 0 auto; */
+  width: 100%; /* Adjust width as needed */
+}
+
+body {
+  overflow-y: hidden; /* Prevent vertical scrolling */
+  overflow-x: hidden;
+}
+
+.grow {
+  width: 100vw;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div {
+  display: flex;
+  justify-content: center;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main {
+  padding-top: 1.5rem;
+}
+
+body {
+  background-color: black;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button.w-20.sm\:w-24.h-20.sm\:h-24.items-center.border.border-transparent.text-base.sm\:text-xl.font-medium.rounded-full.shadow-lg.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.text-white.dark\:bg-indigo-600.dark\:hover\:bg-indigo-500.dark\:group-hover\:bg-indigo-500.dark\:focus\:ring-indigo-500 {
+  background-color:transparent;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button.min-w-\[5rem\].sm\:min-w-\[6rem\].px-2.py-1.sm\:py-2.items-center.border.border-transparent.rounded-full.shadow.text-sm.sm\:text-base.bg-gray-100.dark\:bg-gray-800.text-gray-300.dark\:text-gray-600.cursor-not-allowed.self-center {
+  display: none;
+}
+
+#__nuxt > div > div.grow.min-h-screen.flex.flex-col > main > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.text-center.mt-6.sm\:mt-12.space-x-2 > button:nth-child(1) {
+  display: none;
+}

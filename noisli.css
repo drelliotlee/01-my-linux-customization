@@ -1,19 +1,23 @@
 .ihPpGR, .ewAjs, .eztyvT, .ewAjsu, .jCQkbo, .bClDPK, .hAhUar{
-    display: none
-  }
-  
-  .dAalIT {
-    min-width: 300px;
-  }
-  
-  .rlwYm {
-    padding-top: 10px;
-  }
-  
-  html, body {
-      overflow-y: hidden; /* Disables vertical scrolling */
-  }
-  
-  .rlwYm {
-    background-color: black;
-  }
+  display: none
+}
+
+.dAalIT {
+  min-width: 300px;
+}
+
+.rlwYm {
+  padding-top: 0px;
+}
+
+html, body {
+    overflow-y: hidden; /* Disables vertical scrolling */
+}
+
+.rlwYm, body {
+  background-color: black;
+}
+
+.gnqSSC {
+  margin-top: 10px;
+}
