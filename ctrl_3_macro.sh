@@ -9,7 +9,7 @@ if [ -n "$WINDOW_ID" ]; then
     # Clear all modifiers
     xdotool keyup ctrl shift alt super
     # Send Ctrl+E
-    xdotool keydown ctrl key e keyup ctrl
+    xdotool keydown ctrl key t keyup ctrl
 else
     # Play a beep if the window is not found
     paplay /usr/share/sounds/freedesktop/stereo/dialog-error.oga
